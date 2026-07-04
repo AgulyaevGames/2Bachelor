@@ -148,8 +148,8 @@ MonoBehaviour:
         guid: 1eb0e17264e28b4a8acd72572b2cfbb3
       Path: Events\Default Work Unit\PlayerEvents\Play_FoostepsBoard
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.45702332
+      minDuration: 0.35143638
     - name: Play_LR_Clock_Guitar_1
       guid: 260c0f70db9c9f4d9b4fdd17db377df5
       id: 2656591520
@@ -167,7 +167,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 260c0f70db9c9f4d9b4fdd17db377df5
       Path: Events\Default Work Unit\LR\Play_LR_Clock_Guitar_1
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: Play_LR_Clock_Guitar_2
@@ -187,7 +187,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: be402ecf880ac1498e008e6355b09920
       Path: Events\Default Work Unit\LR\Play_LR_Clock_Guitar_2
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: Play_LR_Container
@@ -205,8 +205,8 @@ MonoBehaviour:
         guid: b2d63679f47d5547b78dd6435e015d6d
       Path: Events\Default Work Unit\Play_LR_Container
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 21.333334
+      minDuration: 21.333334
     - name: Play_Noises_Random_Container
       guid: 700d4d94ae16e5459870644aaf82bb77
       id: 1083326503
@@ -222,8 +222,8 @@ MonoBehaviour:
         guid: 700d4d94ae16e5459870644aaf82bb77
       Path: Events\Default Work Unit\Play_Noises_Random_Container
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.154938
+      minDuration: 0.2684658
     - name: Play_Test_Scream
       guid: d77e1e933802de4083a48c7959f2887e
       id: 1982442762
@@ -242,8 +242,8 @@ MonoBehaviour:
         guid: d77e1e933802de4083a48c7959f2887e
       Path: Events\Default Work Unit\Screamers\Play_Test_Scream
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4
+      minDuration: 4
     - name: PlayerEvents
       guid: c1a2e0f895a99c48985f263e7231b8b7
       id: 160301817
@@ -296,8 +296,8 @@ MonoBehaviour:
         guid: c083dd13622d4745b73eb6023791226a
       Path: Events\Default Work Unit\LR\Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

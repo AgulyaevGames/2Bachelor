@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2e8ef6e077592340ad5261af9ca950ae
     GuidInternal: 
-    m_lastTime: -8584184363048559392
+    m_lastTime: -8584182581471592509
     List:
+    - name: Character
+      guid: 5693598336a3d84c8cb85181ee34fb88
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e8ef6e077592340ad5261af9ca950ae
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Character
+        ObjectType: 2
+        guid: 5693598336a3d84c8cb85181ee34fb88
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Character
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -71,6 +88,57 @@ MonoBehaviour:
         ObjectType: 2
         guid: 8312b20781e3cf4289bbd29680e56e91
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+    - name: Noises
+      guid: 5fce1113a6982c458ef9ccdb85b4c096
+      id: 1266610936
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e8ef6e077592340ad5261af9ca950ae
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Noises
+        ObjectType: 2
+        guid: 5fce1113a6982c458ef9ccdb85b4c096
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Noises
+    - name: ReverbHall1
+      guid: f7eb65a7fbddd24cbbc80725c77a9c20
+      id: 1958494101
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e8ef6e077592340ad5261af9ca950ae
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: ReverbHall1
+        ObjectType: 1
+        guid: f7eb65a7fbddd24cbbc80725c77a9c20
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbHall1
+    - name: Screamers
+      guid: 04b1b52ae59df342ba0e4b1ee5b35cfb
+      id: 1970908302
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e8ef6e077592340ad5261af9ca950ae
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Screamers
+        ObjectType: 2
+        guid: 04b1b52ae59df342ba0e4b1ee5b35cfb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Screamers
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -369,7 +437,7 @@ MonoBehaviour:
     m_lastTime: -8584215366904709349
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 030000000400000005000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

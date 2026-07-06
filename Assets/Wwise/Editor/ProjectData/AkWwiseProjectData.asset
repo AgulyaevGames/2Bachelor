@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2e8ef6e077592340ad5261af9ca950ae
     GuidInternal: 
-    m_lastTime: -8584182581471592509
+    m_lastTime: -8584182458043599439
     List:
     - name: Character
       guid: 5693598336a3d84c8cb85181ee34fb88
@@ -179,7 +179,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
     GuidInternal: 
-    m_lastTime: -8584184363053074942
+    m_lastTime: -8584182458043563946
     List:
     - name: LR
       guid: 9993ff57a8f3ae48b81a0b0097795b1c
@@ -420,8 +420,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 2afd69e7222b8e4d8099ced3d9c56144
     GuidInternal: 
-    m_lastTime: -8584215366904931947
-    List: []
+    m_lastTime: -8584182458043528795
+    List:
+    - name: Music
+      guid: a7a1c7f9fbaa944091352192ce24eb4f
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2afd69e7222b8e4d8099ced3d9c56144
+      - ElementName: Music
+        ObjectType: 11
+        guid: a7a1c7f9fbaa944091352192ce24eb4f
+      Path: Switches\Default Work Unit\Music
+      values:
+      - name: BR
+        guid: 45970710759a7c4dbb00a6dd95cee92b
+        id: 1870080949
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2afd69e7222b8e4d8099ced3d9c56144
+        - ElementName: Music
+          ObjectType: 11
+          guid: a7a1c7f9fbaa944091352192ce24eb4f
+        - ElementName: BR
+          ObjectType: 10
+          guid: 45970710759a7c4dbb00a6dd95cee92b
+      - name: HR
+        guid: be9073731626f543beecc3aec332b334
+        id: 1769415207
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2afd69e7222b8e4d8099ced3d9c56144
+        - ElementName: Music
+          ObjectType: 11
+          guid: a7a1c7f9fbaa944091352192ce24eb4f
+        - ElementName: HR
+          ObjectType: 10
+          guid: be9073731626f543beecc3aec332b334
+      - name: LR
+        guid: cab8241a39ea0f4d9a3db661b831650c
+        id: 1702304891
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2afd69e7222b8e4d8099ced3d9c56144
+        - ElementName: Music
+          ObjectType: 11
+          guid: a7a1c7f9fbaa944091352192ce24eb4f
+        - ElementName: LR
+          ObjectType: 10
+          guid: cab8241a39ea0f4d9a3db661b831650c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -437,7 +503,7 @@ MonoBehaviour:
     m_lastTime: -8584215366904709349
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 030000000400000005000000
+  ExpandedWaapiItemIds: 0300000004000000050000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -230,7 +230,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
     GuidInternal: 
-    m_lastTime: -8584181508862212810
+    m_lastTime: -8584179032076499498
     List:
     - name: LR
       guid: 9993ff57a8f3ae48b81a0b0097795b1c
@@ -266,6 +266,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 42.666668
       minDuration: 42.666668
+    - name: Play_Breath
+      guid: 31afdd7de927b648bf6f80c17aea61bc
+      id: 3698047240
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: PlayerEvents
+        ObjectType: 4
+        guid: c1a2e0f895a99c48985f263e7231b8b7
+      - ElementName: Play_Breath
+        ObjectType: 3
+        guid: 31afdd7de927b648bf6f80c17aea61bc
+      Path: Events\Default Work Unit\PlayerEvents\Play_Breath
+      maxAttenuation: 0
+      maxDuration: 15.232472
+      minDuration: 15.232472
     - name: Play_FoostepsBoard
       guid: 1eb0e17264e28b4a8acd72572b2cfbb3
       id: 33609129
@@ -286,6 +306,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.45702332
       minDuration: 0.35143638
+    - name: Play_Jump
+      guid: 9cc9323c5f790a43af7f08c190812336
+      id: 3689126666
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: PlayerEvents
+        ObjectType: 4
+        guid: c1a2e0f895a99c48985f263e7231b8b7
+      - ElementName: Play_Jump
+        ObjectType: 3
+        guid: 9cc9323c5f790a43af7f08c190812336
+      Path: Events\Default Work Unit\PlayerEvents\Play_Jump
+      maxAttenuation: 0
+      maxDuration: 0.4700195
+      minDuration: 0.4632048
+    - name: Play_Land
+      guid: 3f501e4b28e4524ab9db67647d36b937
+      id: 4285282925
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: PlayerEvents
+        ObjectType: 4
+        guid: c1a2e0f895a99c48985f263e7231b8b7
+      - ElementName: Play_Land
+        ObjectType: 3
+        guid: 3f501e4b28e4524ab9db67647d36b937
+      Path: Events\Default Work Unit\PlayerEvents\Play_Land
+      maxAttenuation: 0
+      maxDuration: 0.6644803
+      minDuration: 0.36861607
     - name: Play_LR_Clock_Guitar_1
       guid: 260c0f70db9c9f4d9b4fdd17db377df5
       id: 2656591520
@@ -654,7 +714,7 @@ MonoBehaviour:
     m_lastTime: -8584215366904709349
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000f0000001000000011000000120000001300000014000000150000002f000000
+  ExpandedWaapiItemIds: 020000000300000004000000050000000600000007000000080000000e0000000f0000001000000011000000120000001300000014000000150000002f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

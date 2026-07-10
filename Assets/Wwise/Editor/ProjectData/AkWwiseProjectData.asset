@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2e8ef6e077592340ad5261af9ca950ae
     GuidInternal: 
-    m_lastTime: -8584182458043599439
+    m_lastTime: -8584180834887644978
     List:
     - name: Character
       guid: 5693598336a3d84c8cb85181ee34fb88
@@ -105,6 +105,40 @@ MonoBehaviour:
         ObjectType: 2
         guid: 5fce1113a6982c458ef9ccdb85b4c096
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Noises
+    - name: Reverb_Hall2
+      guid: 89fd16a538f10644a0b2a8400f2de216
+      id: 3449032025
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e8ef6e077592340ad5261af9ca950ae
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb_Hall2
+        ObjectType: 1
+        guid: 89fd16a538f10644a0b2a8400f2de216
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Hall2
+    - name: Reverb_Room
+      guid: c3a7bfac72b30e4b98c51f83c7bb4d81
+      id: 3258416929
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e8ef6e077592340ad5261af9ca950ae
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb_Room
+        ObjectType: 1
+        guid: c3a7bfac72b30e4b98c51f83c7bb4d81
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Room
     - name: ReverbHall1
       guid: f7eb65a7fbddd24cbbc80725c77a9c20
       id: 1958494101
@@ -139,6 +173,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 04b1b52ae59df342ba0e4b1ee5b35cfb
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Screamers
+    - name: TileRoom
+      guid: 0364b868557e934588612662b6bdbf35
+      id: 2005700388
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e8ef6e077592340ad5261af9ca950ae
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: TileRoom
+        ObjectType: 1
+        guid: 0364b868557e934588612662b6bdbf35
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\TileRoom
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -151,7 +202,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 1da46757beb9a145a0b9feda6e28ba33
     GuidInternal: 
-    m_lastTime: -8584184362902893190
+    m_lastTime: -8584181508862298164
     List:
     - name: Main
       guid: 36a90721c204574db6fe686b4ad34af0
@@ -179,7 +230,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
     GuidInternal: 
-    m_lastTime: -8584182458043563946
+    m_lastTime: -8584181508862212810
     List:
     - name: LR
       guid: 9993ff57a8f3ae48b81a0b0097795b1c
@@ -198,6 +249,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_BR_Segment
+      guid: 1dc238987306934a83616287420183b0
+      id: 4284726768
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: Play_BR_Segment
+        ObjectType: 3
+        guid: 1dc238987306934a83616287420183b0
+      Path: Events\Default Work Unit\Play_BR_Segment
+      maxAttenuation: 0
+      maxDuration: 42.666668
+      minDuration: 42.666668
     - name: Play_FoostepsBoard
       guid: 1eb0e17264e28b4a8acd72572b2cfbb3
       id: 33609129
@@ -275,6 +343,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 21.333334
       minDuration: 21.333334
+    - name: Play_Music_Switch_Container
+      guid: 8d6a2e4ef5002c4c91171b59080faee9
+      id: 4282641482
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: Play_Music_Switch_Container
+        ObjectType: 3
+        guid: 8d6a2e4ef5002c4c91171b59080faee9
+      Path: Events\Default Work Unit\Play_Music_Switch_Container
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Noises_Random_Container
       guid: 700d4d94ae16e5459870644aaf82bb77
       id: 1083326503
@@ -406,8 +491,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: c331e28e10ae8343bcdb967e592ec74c
     GuidInternal: 
-    m_lastTime: -8584215366904896366
-    List: []
+    m_lastTime: -8584181508862237889
+    List:
+    - name: Music_State
+      guid: 8b0dd86e9a23db4cbc4670fb5ec394f0
+      id: 3826569560
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c331e28e10ae8343bcdb967e592ec74c
+      - ElementName: Music_State
+        ObjectType: 9
+        guid: 8b0dd86e9a23db4cbc4670fb5ec394f0
+      Path: States\Default Work Unit\Music_State
+      values:
+      - name: BR_State
+        guid: d83d2435ca2d5940b71767a8272ba4d8
+        id: 1852050855
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c331e28e10ae8343bcdb967e592ec74c
+        - ElementName: Music_State
+          ObjectType: 9
+          guid: 8b0dd86e9a23db4cbc4670fb5ec394f0
+        - ElementName: BR_State
+          ObjectType: 8
+          guid: d83d2435ca2d5940b71767a8272ba4d8
+      - name: LR_State
+        guid: 976022fdf081d3458d2cc675f177408d
+        id: 1041348693
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c331e28e10ae8343bcdb967e592ec74c
+        - ElementName: Music_State
+          ObjectType: 9
+          guid: 8b0dd86e9a23db4cbc4670fb5ec394f0
+        - ElementName: LR_State
+          ObjectType: 8
+          guid: 976022fdf081d3458d2cc675f177408d
+      - name: None
+        guid: 05c10e471ae42146b019c58a5f420061
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c331e28e10ae8343bcdb967e592ec74c
+        - ElementName: Music_State
+          ObjectType: 9
+          guid: 8b0dd86e9a23db4cbc4670fb5ec394f0
+        - ElementName: None
+          ObjectType: 8
+          guid: 05c10e471ae42146b019c58a5f420061
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -503,7 +654,7 @@ MonoBehaviour:
     m_lastTime: -8584215366904709349
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0300000004000000050000000600000007000000
+  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000f0000001000000011000000120000001300000014000000150000002f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

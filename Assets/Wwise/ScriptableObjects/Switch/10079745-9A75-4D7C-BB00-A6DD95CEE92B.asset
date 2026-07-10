@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61dc2e9235a4e984899182abdafd56d9, type: 3}
+  m_Name: 10079745-9A75-4D7C-BB00-A6DD95CEE92B
+  m_EditorClassIdentifier: 
+  objectName: BR
+  id: 1870080949
+  guid: 10079745-9A75-4D7C-BB00-A6DD95CEE92B
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 4a7d9c26338454448a4b8ee613dbdb0b, type: 2}

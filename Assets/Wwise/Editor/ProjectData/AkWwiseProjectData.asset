@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 2e8ef6e077592340ad5261af9ca950ae
     GuidInternal: 
-    m_lastTime: -8584180834887644978
+    m_lastTime: -8584178927290280299
     List:
+    - name: Ambiance
+      guid: 554999fa9261934b8cb04a008f2433db
+      id: 2981377429
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e8ef6e077592340ad5261af9ca950ae
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambiance
+        ObjectType: 2
+        guid: 554999fa9261934b8cb04a008f2433db
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambiance
     - name: Character
       guid: 5693598336a3d84c8cb85181ee34fb88
       id: 436743010
@@ -202,7 +219,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 1da46757beb9a145a0b9feda6e28ba33
     GuidInternal: 
-    m_lastTime: -8584181508862298164
+    m_lastTime: -8584177348840133528
     List:
     - name: Main
       guid: 36a90721c204574db6fe686b4ad34af0
@@ -230,8 +247,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
     GuidInternal: 
-    m_lastTime: -8584179032076499498
+    m_lastTime: -8584177362550684825
     List:
+    - name: Ambiance
+      guid: c6b31b8fe1a41444a01d6ba7142df5ae
+      id: 2981377429
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: Ambiance
+        ObjectType: 4
+        guid: c6b31b8fe1a41444a01d6ba7142df5ae
+      Path: Events\Default Work Unit\Ambiance
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: LR
       guid: 9993ff57a8f3ae48b81a0b0097795b1c
       id: 1702304891
@@ -306,6 +340,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.45702332
       minDuration: 0.35143638
+    - name: Play_GlassBreak
+      guid: 71d04166eb8cd141b7d148fffb4122de
+      id: 1475126899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: Play_GlassBreak
+        ObjectType: 3
+        guid: 71d04166eb8cd141b7d148fffb4122de
+      Path: Events\Default Work Unit\Play_GlassBreak
+      maxAttenuation: 0
+      maxDuration: 1.2166475
+      minDuration: 0.9354579
     - name: Play_Jump
       guid: 9cc9323c5f790a43af7f08c190812336
       id: 3689126666
@@ -435,7 +486,7 @@ MonoBehaviour:
         guid: 700d4d94ae16e5459870644aaf82bb77
       Path: Events\Default Work Unit\Play_Noises_Random_Container
       maxAttenuation: 0
-      maxDuration: 4.154938
+      maxDuration: 20
       minDuration: 0.2684658
     - name: Play_Test_Scream
       guid: d77e1e933802de4083a48c7959f2887e
@@ -471,6 +522,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: c1a2e0f895a99c48985f263e7231b8b7
       Path: Events\Default Work Unit\PlayerEvents
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Rain_Ambiance
+      guid: d8b81b8ec607a944b2f4eee9889eb4b0
+      id: 3167653450
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: Ambiance
+        ObjectType: 4
+        guid: c6b31b8fe1a41444a01d6ba7142df5ae
+      - ElementName: Rain_Ambiance
+        ObjectType: 3
+        guid: d8b81b8ec607a944b2f4eee9889eb4b0
+      Path: Events\Default Work Unit\Ambiance\Rain_Ambiance
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -511,6 +582,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Window_Rain
+      guid: 6ca043f8791f3449a62632b3d5732c5b
+      id: 290976602
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51e536dd4701a246b5b4dbaf2fc5cd1d
+      - ElementName: Ambiance
+        ObjectType: 4
+        guid: c6b31b8fe1a41444a01d6ba7142df5ae
+      - ElementName: Window_Rain
+        ObjectType: 3
+        guid: 6ca043f8791f3449a62632b3d5732c5b
+      Path: Events\Default Work Unit\Ambiance\Window_Rain
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

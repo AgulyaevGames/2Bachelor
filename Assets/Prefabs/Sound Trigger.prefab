@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2573147892051935862}
   - component: {fileID: 2850768675536923822}
   - component: {fileID: 3227356791890454202}
+  - component: {fileID: 3057592035466048335}
   m_Layer: 0
   m_Name: Sound Trigger
   m_TagString: Untagged
@@ -53,7 +54,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930253733862688540}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -208,3 +209,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &3057592035466048335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930253733862688540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aef700e3529b72479a2444573dc443c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerObject: {fileID: 2676504531902979702, guid: 534a3a5bc12700c4b9d18853949b1dd5, type: 3}
